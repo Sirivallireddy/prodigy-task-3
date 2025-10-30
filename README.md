@@ -51,29 +51,3 @@ Shows a 3×3 grid of random test images from the test1 folder with predicted lab
 ├── Task3.py           # Main Python script
 
 └── README.md                # Project overview and setup
-📊 Dataset
-
-Source: Kaggle Dogs vs Cats Dataset
-
-Train Folder: 100 labeled images (cat and dog)
-
-Test1 Folder: 100 unlabeled images
-
-Used Sample: 100 images (for faster model training)
-
-All images are resized to 64×64 before training.
-
-📈 Visualizations
-
-Displays model accuracy on unseen validation images.
-
-Shows a 3×3 grid of random test images from the test1 folder with predicted labels (Cat or Dog).
-
-🗂️ File Structure
-📁 Cat-Dog-SVM-Classifier
-│
-├── train/                   # Training images (cats & dogs)
-├── test1/                   # Test images (unlabeled)
-├── svm_cat_dog_model.pkl    # Saved SVM model
-├── Task3.py           # Main Python script
-└── README.md                # Project overview and setup
